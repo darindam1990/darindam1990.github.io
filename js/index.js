@@ -50,12 +50,6 @@ function hashchanged() {
   hideAllSections();
   var $id = (typeof section === "undefined" || section === "") ? "#home" : "#"+section;
   $("body").css({'background-image': setBgImg($id)});
-  if ($id === "#misc") {
-    $("#misc").gridalicious({
-      gutter: 13,
-      animate: true
-    });
-  }
   $($id).fadeIn(400);
 }
 
@@ -65,12 +59,6 @@ $(".menu").on('click', "a", function(event){
   hideAllSections();
   var $id = $(this).attr('href') === "#" ? "#home" : $(this).attr('href');
   $("body").css({'background-image': setBgImg($id)});
-  if ($id === "#misc") {
-    $("#misc").gridalicious({
-      gutter: 13,
-      animate: true
-    });
-  }
   $($id).fadeIn(400);
 });
 
