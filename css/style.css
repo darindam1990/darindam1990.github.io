@@ -254,6 +254,9 @@ blockquote:before {
 .medium-img.email {
   background-image: url("../assets/gmail.png");
 }
+.medium-img.resume {
+  background-image: url("../assets/resume.png");
+}
 
 .contact-medium:hover {
   opacity: 1.0;
