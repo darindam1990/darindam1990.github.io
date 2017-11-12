@@ -1,190 +1,251 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>A long long time ago...</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  </head>
+<html>
 
-  <body>
-    <div class="container">
-	<nav>
-		<ul class="menu">
-			<a href="#">Home</a>
-			<a href="#projects">Projects</a>
-			<a href="#misc">Misc</a>
-			<a href="#contact">Contact</a>
-		</ul>
-	</nav>
-	<div class="content">
-		<section class="views" id="home" style="display: none">
-			<div class="intro">I am <span class="animated"></span>
-</div>
-			<p>
-			I am a frontend engineer, hacker, design enthusiast and everything else in between. Based out of the Bay Area, I work for the NSX UI team at VMware, where we are building the face of a product that's slowly revolutionizing the network space.</p>
+<head>
+	<meta charset="UTF-8">
+	<title>A long long time ago...</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
 
-			<p>In my two years with the team, I have worked on several heavy duty features such as - Object Tagging, Search and visualization pieces for dashboards. Several of my hackathon projects at VMWare were either shaped into product features or turned into tools to drive <a href="http://tinyurl.com/gr2dwah" target="_blank">VMWorld keynote presentations</a></p>
+<body>
+	<div class="container">
+		<nav>
+			<ul class="menu">
+				<a href="#">Home</a>
+				<a href="#projects">Projects</a>
+				<a href="#misc">Misc</a>
+				<a href="#contact">Contact</a>
+			</ul>
+		</nav>
+		<div class="content">
+			<section class="views" id="home" style="display: none">
+				<div class="intro">I am
+					<span class="animated"></span>
+				</div>
+				<p>
+					I am a frontend engineer, hacker, design enthusiast and everything else in between. Based out of the Bay Area, I work for
+					the NSX UI team at VMware, where we are building the face of a product that's slowly revolutionizing the network space.</p>
 
-			<p>Simplicity is the ultimate sophistication - this is one of the design philosophies that I have come to embrace. Of course, building a cloud-scale enterprise app that actually requires one to get a certification even before they can go past the login screen, based on the above mantra is no child's play. It's akin to building a ballistic missile that's fit for use by a seven year old. No one has done anything like this and no one in their right minds honestly wants to. And oftentimes it's unique predicaments such as this that lead to design and engineering marvel.</p>
-			</p>
-		</section>
+				<p>In my two years with the team, I have worked on several heavy duty features such as - Object Tagging, Search and visualization
+					pieces for dashboards. Several of my hackathon projects at VMWare were either shaped into product features or turned
+					into tools to drive
+					<a href="http://tinyurl.com/gr2dwah" target="_blank">VMWorld keynote presentations</a>
+				</p>
 
-		<section class="views" id="projects" style="display: none">
-			<h2>Policy for NSX</h2>
-			<p>
-			Policy for NSX is an overarching component that facilitates policy templating for workloads in the NSX context. I am currently leading the UI initiative to develop an abstract presentation language for policy workflows in NSX. The draft (constructed with JSON) is designed to be rich in features like layout specification, input validation, dynamic data querying and conditional logic to hide/show sections based on user input.
-			</p>
-			<hr>
-			<h2>Autopology</h2>
-			<p>
-			Built during Borathon 2015 and winner of the "Judge's choice award", Autopology is a web app to design a logical network at scale using visual cues in a drag-drop-describe workflow. Using a combination of smart defaults and custom input, the tool translates a visual schematic into logical entities on the NSX manager doing all the heavy lifting behind the scenes.
-			</p>
-			<hr>
-			<h2>Jarvis</h2>
-			<p>
-			Developed an internal web-based tool as a part of a two member team that allows deployment of pre-provisioned network topologies and perform runtime monitoring of deployed assets in a production cloud. Apart from helping devs to run pre-commit tests, Jarvis helps PMs/SEs deploy SDDC stacks at the click of a button. I have contributed to the project as a full-stack developer owing to my familarity with the LAMP stack. One of my recent contributions to project is the ability to add private topologies.
-			</p>
-			<hr>
-			<h2>TribeBuilder</h2>
-			<p>
-			Built overnight as a part of the NSBU Jamz Hackathon and winner of the "Voice of audience award", TribeBuilder allows users to deploy large scale (>5k nodes) at the click of a button. Built with D3, the UI uses an interactive zoom-able canvas to draw network elements in a graphical layout.
-			</p>
-		</section>
-		<section class="views" id="misc" style="display: none">
-			<blockquote>
-			I haven't been everywhere but it's on my list...
-			</blockquote>
-			<p>
-			The only thing better than a travel book (or show) is going there yourself. As a kid I remember watching Nat Geo with awe every time I got in front of the TV. So as an adult, when I finally got the means and opportunity to travel, I have always tried to say YES!
-			</p>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/boardwalk.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Kemah Boardwalk</h3>
-					<h4>Houston</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/bear_lake.jpg" />
-				</div>
-				<div class="item-txt">
-					<h3>Bear Lake</h3>
-					<h4>Colorado</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/bigsur.png" />
-				</div>
-				<div class="item-txt">
-					<h3>McWay Waterfall</h3>
-					<h4>Big Sur</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/archrock.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Arch Rock</h3>
-					<h4>Joshua Tree NP</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/cristo_redentor.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Cristo Redentor</h3>
-					<h4>Rio de Janerio</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/denali.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Toklat River</h3>
-					<h4>Denali NP</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/halfdome.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Half Dome</h3>
-					<h4>Yosemite NP</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/canyonlands.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Canyonlands</h3>
-					<h4>Utah</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/crater.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Crater Lake</h3>
-					<h4>Oregon</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/shasta.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Mt. Shasta</h3>
-					<h4>Oregon</h4>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-img">
-					<img src="assets/zabrinske.png" />
-				</div>
-				<div class="item-txt">
-					<h3>Zabriskie Pt</h3>
-					<h4>Death Valley NP</h4>
-				</div>
-			</div>
+				<p>Simplicity is the ultimate sophistication - this is one of the design philosophies that I have come to embrace. Of course,
+					building a cloud-scale enterprise app that actually requires one to get a certification even before they can go past
+					the login screen, based on the above mantra is no child's play. It's akin to building a ballistic missile that's fit
+					for use by a seven year old. No one has done anything like this and no one in their right minds honestly wants to. And
+					oftentimes it's unique predicaments such as this that lead to design and engineering marvel.</p>
+				</p>
+			</section>
 
-		</section>
+			<section class="views" id="projects" style="display: none">
+				<h2>Policy for NSX</h2>
+				<p>
+					Policy for NSX is an overarching component that facilitates policy templating for workloads in the NSX context. I am currently
+					leading the UI initiative to develop an abstract presentation language for policy workflows in NSX. The draft (constructed
+					with JSON) is designed to be rich in features like layout specification, input validation, dynamic data querying and
+					conditional logic to hide/show sections based on user input.
+				</p>
+				<hr>
+				<h2>NSX TimeMachine</h2>
+				<p>
+					Developed a media player-esque interactive UI, that lets users pause, play, rewind and restore the complete state of their
+					logical network in an AR-enabled application. Technologies used: AngularJS, D3JS, Wikitude AR Toolkit.
+				</p>
+				<hr>
+				<h2>Autopology</h2>
+				<p>
+					Built during Borathon 2015 and winner of the "Judge's choice award", Autopology is a web app to design a logical network
+					at scale using visual cues in a drag-drop-describe workflow. Using a combination of smart defaults and custom input,
+					the tool translates a visual schematic into logical entities on the NSX manager doing all the heavy lifting behind the
+					scenes.
+				</p>
+				<hr>
+				<h2>Jarvis</h2>
+				<p>
+					Developed an internal web-based tool as a part of a two member team that allows deployment of pre-provisioned network topologies
+					and perform runtime monitoring of deployed assets in a production cloud. Apart from helping devs to run pre-commit tests,
+					Jarvis helps PMs/SEs deploy SDDC stacks at the click of a button. I have contributed to the project as a full-stack
+					developer owing to my familarity with the LAMP stack. One of my recent contributions to project is the ability to add
+					private topologies.
+				</p>
+				<hr>
+				<h2>TribeBuilder</h2>
+				<p>
+					Built overnight as a part of the NSBU Jamz Hackathon and winner of the "Voice of audience award", TribeBuilder allows users
+					to deploy large scale (>5k nodes) at the click of a button. Built with D3, the UI uses an interactive zoom-able canvas
+					to draw network elements in a graphical layout.
+				</p>
+			</section>
+			<section class="views" id="misc" style="display: none">
+				<blockquote>
+					I haven't been everywhere but it's on my list...
+				</blockquote>
+				<p>
+					The only thing better than a travel book (or show) is going there yourself. As a kid I remember watching Nat Geo with awe
+					every time I got in front of the TV. So as an adult, when I finally got the means and opportunity to travel, I have
+					always tried to say YES!
+				</p>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/sydney.jpg" />
+					</div>
+					<div class="item-txt">
+						<h3>Sydney Skyline</h3>
+						<h4>NSW, Australia</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/egypy.png" />
+					</div>
+					<div class="item-txt">
+						<h3>The Pyramid at Giza</h3>
+						<h4>Giza, Egypt</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/gnp.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Glacier National Park</h3>
+						<h4>Montana</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/boardwalk.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Kemah Boardwalk</h3>
+						<h4>Houston</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/bear_lake.jpg" />
+					</div>
+					<div class="item-txt">
+						<h3>Bear Lake</h3>
+						<h4>Colorado</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/bigsur.png" />
+					</div>
+					<div class="item-txt">
+						<h3>McWay Waterfall</h3>
+						<h4>Big Sur</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/archrock.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Arch Rock</h3>
+						<h4>Joshua Tree NP</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/cristo_redentor.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Cristo Redentor</h3>
+						<h4>Rio de Janerio</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/denali.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Toklat River</h3>
+						<h4>Denali NP</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/halfdome.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Half Dome</h3>
+						<h4>Yosemite NP</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/canyonlands.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Canyonlands</h3>
+						<h4>Utah</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/crater.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Crater Lake</h3>
+						<h4>Oregon</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/shasta.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Mt. Shasta</h3>
+						<h4>Oregon</h4>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-img">
+						<img src="assets/zabrinske.png" />
+					</div>
+					<div class="item-txt">
+						<h3>Zabriskie Pt</h3>
+						<h4>Death Valley NP</h4>
+					</div>
+				</div>
 
-		<section class="views" id="contact" style="display: none">
-			<div class="contact-medium">
-				<a href="http://www.linkedin.com/in/darindam1990" target="_blank">
-					<div class="medium-img linkedin"></div>
-				</a>
-			</div>
-			<div class="contact-medium">
-				<a href="http://codepen.io/isNaN/" target="_blank">
-					<div class="medium-img codepen"></div>
-				</a>
-			</div>
-			<div class="contact-medium">
-				<a href="mailto:adas1990.gatech@gmail.com"><div class="medium-img email"></div></a>
-			</div>
-			<div class="contact-medium">
-				<a href="https://www.dropbox.com/s/1o0epy59v61pv3k/Resume_Arindam_Das_latest.pdf?dl=0" target="_blank">
-					<div class="medium-img resume"></div>
-				</a>
-			</div>
-		</section>
+			</section>
 
+			<section class="views" id="contact" style="display: none">
+				<div class="contact-medium">
+					<a href="http://www.linkedin.com/in/darindam1990" target="_blank">
+						<div class="medium-img linkedin"></div>
+					</a>
+				</div>
+				<div class="contact-medium">
+					<a href="http://codepen.io/isNaN/" target="_blank">
+						<div class="medium-img codepen"></div>
+					</a>
+				</div>
+				<div class="contact-medium">
+					<a href="mailto:adas1990.gatech@gmail.com">
+						<div class="medium-img email"></div>
+					</a>
+				</div>
+				<div class="contact-medium">
+					<a href="https://www.dropbox.com/s/1o0epy59v61pv3k/Resume_Arindam_Das_latest.pdf?dl=0" target="_blank">
+						<div class="medium-img resume"></div>
+					</a>
+				</div>
+			</section>
+
+		</div>
 	</div>
-</div>
-    <script src='js/jquery.min.js'></script>
-    <script src="js/index.js"></script>
-    <script src="js/jquery.gridalicious.min.js"></script>
-  </body>
+	<script src='js/jquery.min.js'></script>
+	<script src="js/index.js"></script>
+	<script src="js/jquery.gridalicious.min.js"></script>
+</body>
+
 </html>
